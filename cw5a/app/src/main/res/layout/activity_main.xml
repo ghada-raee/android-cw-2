@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DE1D358"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="603dp"
+        android:text="صيدلية مسار الأندرويد"
+        android:textColor="#E81818"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="460dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="347dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="290dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="231dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="174dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="412dp"
+        android:text="الرجاء إدخال البيانات التالية:"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#E81818"
+        android:text="Location" />
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#E81818"
+        android:text="Next" />
+
+</RelativeLayout>
